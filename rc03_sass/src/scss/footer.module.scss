@@ -1,0 +1,16 @@
+@import "./variables";
+
+.footer {
+  background-color: $lightGreen-1-4-hex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  .title {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+}
