@@ -57,7 +57,7 @@ export default Events;
 
 //* React bunu DOM islemlerini minimize etmek icin yapmaktadir.
 //* REACT'a hangi elementleri interaktif oldugu belirtilmelidir.
-//! React'a elementlerin interaktif oldugunu belirtmek icin state'ler kullanilir.
+//! React'a elementlerin interakti f oldugunu belirtmek icin state'ler kullanilir.
 //! State, elementlerin degisiklik durumlarini tutan nesnelerdir.
 //? ReactJs'de state'leri kullanmak icin  2 ayri Component yapisi bulunmaktadir.
 //? 1. Statefull Classes (Class Components).
