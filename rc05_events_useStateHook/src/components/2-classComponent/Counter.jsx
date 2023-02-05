@@ -49,10 +49,6 @@ class Counter extends Component {
           INC
         </button>
 
-        <button onClick={this.clear} className="btn btn-dark">
-          CLR
-        </button>
-
         <button onClick={this.decrement} className="btn btn-danger">
           DEC
         </button>

@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
       {/* <Events /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <Counter count={5} /> */}
-      {/* <UseStateCounter /> */}
+      <UseStateCounter />
     </div>
   );
 }
