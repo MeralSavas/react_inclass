@@ -53,6 +53,7 @@ const useStateCounter = () => {
     // setPerson({ name: "Ahmet", surname: "Can", age: 44 });
     setPerson({ ...person, age: person.age + 1 });
   };
+  // spread yapmak gerekir ve tum degerleri almak gerekir
 
   return (
     <div className="container text-center mt-4">
