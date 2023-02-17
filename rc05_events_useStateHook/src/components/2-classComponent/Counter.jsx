@@ -34,7 +34,7 @@ class Counter extends Component {
   //* Bunun icin metotlarimizi ya constructor icerisinde baglamaliyiz ya da otomatik baglamayi saglayan arrow fonksiyonlarini kullanmaliyiz.
 
   decrement = () => {
-    this.setState({
+    this.setState({ 
       count: this.state.count - 1,
     });
   };
