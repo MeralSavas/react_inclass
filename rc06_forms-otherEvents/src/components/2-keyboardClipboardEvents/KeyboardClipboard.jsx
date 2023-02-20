@@ -39,6 +39,7 @@ const KeyboardClipboard = () => {
 
       <p
         onCopy={(e) => {
+          // kopyalanmasini engellemek icin
           e.preventDefault();
           alert("you cannot copy this doc");
         }}
