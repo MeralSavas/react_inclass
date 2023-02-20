@@ -14,7 +14,7 @@ const MouseEvent = () => {
       : (e.target.className = "bg-danger text-light w-50 p-4 mt-4");
   };
 
-  console.log(toggle);
+  console.log(toggle); 
 
   //? mouseMove event
   const handleMouseMove = (e) => {
@@ -32,11 +32,14 @@ const MouseEvent = () => {
         id="todo-1"
         className="bg-success text-light w-50 p-4"
         onMouseEnter={() => setShowHint(true)}
+        // tikladiginda yani tiklama true ise 
         onMouseOut={() => setShowHint(false)}
+        // mouse pasifse
       >
         todo item 1
       </div>
       {showHint && <span>hello React</span>}
+      {/* showhint true ise spani bize bas */}
 
       <div
         id="todo-2"
