@@ -19,7 +19,7 @@ const Card = () => {
         })}
       </Row>
     </Container>
-  );
+  ); 
 };
 
 export default Card;
