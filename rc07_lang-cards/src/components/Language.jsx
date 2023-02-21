@@ -15,7 +15,8 @@ const Language = ({ name, img, options }) => {
       onClick={() => setShowImage(!showImage)}
       type="button"
     >
-      {showImage && (
+      {/* ternary */}
+      {showImage && (  
         <Container>
           <Image className="lang-logo" src={img} width="70%"></Image>
           <h3 className="display-6">{name}</h3>
@@ -24,6 +25,7 @@ const Language = ({ name, img, options }) => {
 
       {!showImage && (
         <ol className="h-100 d-flex flex-column justify-content-center">
+          {/* iterasyon */}
           {options.map((item) => {
             return <li className="h5 text-start">{item}</li>;
           })}
