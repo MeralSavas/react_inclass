@@ -15,7 +15,7 @@
 //* Bir component'in DOM'a basilmasi (render)
 //* (Optional)Bir componentin guncellenmesinin sonrasi (componentDidUpdate)
 //* Bir component'in DOM agacindan kaldirilmasi sonrasi(componentWillUnmount)
-
+  
 import React from "react";
 
 class LifeCycleMethods extends React.Component {
@@ -48,7 +48,7 @@ class LifeCycleMethods extends React.Component {
     // console.log(prevState.count);
   }
 
-  //! 5-) Bir component DOM agacindan kaldiriltiktan hemen sonra cagirlir.
+  //! 5-) Bir component DOM dan kaldirildiktan hemen sonra cagirilir.Yapilan islemler bellekten tamamen silinir.
   componentWillUnmount() {
     console.log("Unmounted");
   }
