@@ -18,13 +18,14 @@
   
 import React from "react";
 
+
+//! 1-) Bir componentin olsuturulmasinda cagrilir
 class LifeCycleMethods extends React.Component {
-  //! 1-) Bir componentin olsuturulmasinda cagrilir
   constructor(props) {
     console.log("Constructor running");
     super(props);
     this.state = {
-      count: 0,
+      count: 0, //state baslangic degeri verme
     };
   }
 
@@ -33,13 +34,13 @@ class LifeCycleMethods extends React.Component {
       count: this.state.count + 1,
     });
   };
-
+  //bind yapmaya gerek yok cunku arrow function yazdik.
   //! 3-) Bir component DOM agacina eklendiginde calistirilir.
   //! (İlk render sonrasi).
   //! Her yasam dongusu icin bir kere calisir.
   componentDidMount() {
     console.log("Mounted");
-  }
+  }  //bind etmeye gerek yoktur. Reactin yazdiklari dogustan bind edilmis 
 
   //! 4-) Bu metot ilk render haric diger tüm render'lardan sonra cagrilir.
   //!  prevState ve prevProps degerlerini parametre olarak alabilir.
@@ -53,8 +54,9 @@ class LifeCycleMethods extends React.Component {
     console.log("Unmounted");
   }
 
+
+  //! 2-) Her bir render'da cagrilir
   render() {
-    //! 2-) Her bir render'da cagrilir
     console.log("Rendered");
     return (
       <div className="container text-center">
