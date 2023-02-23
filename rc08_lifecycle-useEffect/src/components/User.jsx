@@ -24,8 +24,10 @@ const User = () => {
         {name?.first} {name?.last}
       </h1>
       <img className="rounded-circle" src={picture?.large} alt="img" />
+      {/* rounded-circle= resmi yuvarlatiyor */}
       <p>{email}</p>
       <h5>{new Date(dob?.date).toLocaleDateString("tr-TR")}</h5>
+      {/* buradaki tarih tr tarihi seklinde yazma */}
       <button className="btn btn-danger" onClick={getUser}>
         Get User
       </button>
