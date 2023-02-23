@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 //! useEffect(() => {
 //*   /* ComponentDidMount code */
 //! }, []);
-
+ 
 //! useEffect(() => {
 //*   */ ComponentDidMount + componentDidUpdate code */
 //! }, [var1, var2]);
@@ -29,6 +29,8 @@ import { useState, useEffect } from "react";
 //*     //* componentWillUnmount code */
 //!   };
 //! }, [var1, var2]); //? Dependency Array
+
+// use effect hookunu app.js te cagir
 
 const UseEffectHook = () => {
   const [count, setCount] = useState(0);
