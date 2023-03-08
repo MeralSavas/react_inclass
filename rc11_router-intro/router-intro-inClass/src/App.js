@@ -21,4 +21,7 @@ function App() {
   );
 }
 
+// A BrowserRouter component can only have one child element, so we wrap
+// all we’re going to add in a div element.
+
 export default App;

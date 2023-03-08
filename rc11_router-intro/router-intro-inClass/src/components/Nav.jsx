@@ -16,4 +16,8 @@ const Nav = () => {
   );
 };
 
+// The Link component is used to trigger new routes. You import it
+// from react-router-dom, and you can add the Link components to
+// point at different routes, with the to attribute:
+
 export default Nav;
