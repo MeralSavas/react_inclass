@@ -17,9 +17,11 @@ const PersonDetail = () => {
   const [person, setPerson] = useState("");
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
-
+ 
+  // 2. yontem yeniden  fetch yapma
+  
   useEffect(() => {
-    fetch(`https://reqres.in/api/users/${id}`)
+    fetch(`https://reqres.in/api/users/$ {id}`)
       .then((res) => {
         if (!res.ok) {
           setError(true);
@@ -33,7 +35,7 @@ const PersonDetail = () => {
         setPerson(data.data);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, []);  
 
   console.log(person);
 
