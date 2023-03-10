@@ -27,10 +27,10 @@ const People = () => {
               className=" col-sm-12 col-md-6 col-lg-4"
               type="button"
               // onClick={() => navigate(`/people/${id}`, { state: person })}
-              //! absolute path
+              //! absolute path  // tam adres verildiginde
               // onClick={() => navigate(`/people/${id}`)}
 
-              //! relative path
+              //! relative path   // bulundugu yere gore uzerine ekleme yapar
               onClick={() => navigate(`${id}`)}
             >
               <img className="rounded" src={avatar} alt="img" />
