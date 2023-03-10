@@ -1,4 +1,4 @@
-import { Link, useNavigate, Outlet } from "react-router-dom";
+ import { Link, useNavigate, Outlet } from "react-router-dom";
 
 const Paths = () => {
   const navigate = useNavigate();
