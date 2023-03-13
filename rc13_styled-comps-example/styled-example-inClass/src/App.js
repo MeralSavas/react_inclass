@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Container from "./components/styles/Container.styled";
 import data from "./data";
 
+// global alanda style tanimlayip sonrasinda istedigimiz yerde cagirabiliriz.
+
 const style = {
   colors: {
     header: "#fff",
