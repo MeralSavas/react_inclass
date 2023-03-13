@@ -18,7 +18,7 @@ export const Button = styled.button`
     transform: scale(0.97);
   }
 `;
-
+// ustteki button dan bir buton uretme inherit etme
 export const TomatoButton = styled(Button)`
   background-color: ${({ primary }) => (primary ? "white" : "tomato")};
   color: ${({ primary }) => (primary ? "tomato" : "white")};
