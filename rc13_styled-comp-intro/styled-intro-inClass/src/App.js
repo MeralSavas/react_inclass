@@ -1,4 +1,4 @@
-import { Button, TomatoButton } from "./components/Button.styled";
+ import { Button, TomatoButton } from "./components/Button.styled";
 import Container from "./components/Container.styled";
 import HeaderText from "./components/HeaderText.styled";
 import StyledLink from "./components/Link.styled";
