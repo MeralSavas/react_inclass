@@ -18,6 +18,7 @@ const TaskList = ({task,getTask}) => {
 
   return (
     <div>
+      {/* // veri cekme */}
       {task.map((item)=>{
         const {id,task,date}=item;
         return(
