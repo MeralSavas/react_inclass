@@ -6,6 +6,7 @@ const Cards = ({ recipes }) => {
   const navigate = useNavigate();
   return (
     <MainContainer wrap="wrap">
+      {/* //veri cekme */}
       {recipes.map(({ recipe }, index) => {
         return (
           <Card key={index}>
