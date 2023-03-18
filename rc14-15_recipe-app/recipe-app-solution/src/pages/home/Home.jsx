@@ -6,11 +6,11 @@ import { HeaderText, HomeImg, ImgDiv } from "./Home.style";
 import homeSvg from "../../assets/home.svg";
 
 const Home = () => {
-  // const APP_ID =process.env.REACT_APP_APP_ID
-  // const APP_KEY =process.env.REACT_APP_APP_KEY
+  const APP_ID =process.env.REACT_APP_APP_ID
+  const APP_KEY =process.env.REACT_APP_APP_KEY
 
-  const APP_ID = "5e8effe9";
-  const APP_KEY = "31496f03120e21e48886367a48a4db59";
+  // const APP_ID = "5e8effe9";
+  // const APP_KEY = "31496f03120e21e48886367a48a4db59";
   
   // state
   const [query, setQuery] = useState("egg");
